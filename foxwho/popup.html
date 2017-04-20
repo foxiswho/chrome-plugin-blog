@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>博客收藏 插件</title>
+<link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+<link href="js/select2-4.0.2-rc.1/css/select2.css" rel="stylesheet">
+<link href="js/select2-4.0.2-rc.1/css/select2-bootstrap.css" rel="stylesheet">
+<link href="css/popup.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+	<div class="main-container">
+	
+		<div class="top">博客收藏</div>
+		
+		<div class="main-content">
+		
+			<ul>
+				<li><span class="editor-label">网址：</span><input type="text" class="editor-input url_source"></li>
+				<li><span class="editor-label">标题：</span><input type="text" class="editor-input title"></li>
+				<li><span class="editor-label">标签：</span><input type="text" class="editor-input tag" placeholder="多个用,号隔开"></li>
+				<li><span class="editor-label">栏目：</span><select class="editor-input cat_id" multiple="multiple"></select></li>
+				<li><span class="editor-label">摘要：</span><textarea class="editor-input description" rows="5"></textarea></li>
+				<li><span class="editor-label"></span><label class="checkbox"><input type="checkbox" id="is_open" checked>是否显示</label></li>
+				<li>
+					<span class="editor-label"></span><label class="radio"><input type="radio" name="type" checked>技术</label>
+					<label class="radio"><input type="radio" name="type" id="is_life">生活</label>
+				</li>
+			</ul>
+			<div class="text-center opt">
+				<a class="btn btn-inverse btnFav">收藏</a>
+				<a class="btn btnCancel">关闭</a>
+				<a class="btn btnSetting">选项</a>
+				<a class="" target="_blank" href="http://www.foxwho.com">网址</a>
+			</div>
+		
+		</div>
+		
+	
+	</div>
+
+	
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/layer/layer.js"></script>
+	<script type="text/javascript" src="js/select2-4.0.2-rc.1/select2.full.js"></script>
+	<script type="text/javascript" src="js/select2-4.0.2-rc.1/i18n/zh-CN.js"></script>
+	<script type="text/javascript" src="js/popup.js"></script>
+</body>
+</html> 

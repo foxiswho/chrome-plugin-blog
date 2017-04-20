@@ -1,0 +1,24 @@
+@CHARSET "UTF-8";
+
+body{height: 160px; width: 400px; background: #f3f3f3; }
+*{padding: 0px; margin: 0px;}
+
+body, div, input, li, a, span, label, p {font-family: "Microsoft YaHei", "Times New Roman", "arial"; font-size: 14px;}
+
+ul, li {list-style: none; margin: 0px;}
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input
+	{margin-bottom: 0px;}
+
+
+.main-container {padding: 20px;}
+.top {height: 40px; background: url('../images/logo-0.png') no-repeat; padding-left: 200px; font-size: 16px; line-height: 40px; margin-bottom: 20px;}
+.main-content > ul > li {line-height: 30px;display: block; margin-bottom: 8px;}
+.editor-label {width: 60px;display: inline-block;}
+.editor-input {width: 260px; padding: 0px 5px; }
+select.editor-input{width: 275px;}
+textarea.editor-input{width: 265px;}
+.select-wrapper {display: inline-block; position: relative;}
+label {display: inline-block; margin-right: 10px; cursor: pointer;}
+
+.opt {border-top: 1px solid #ccc; padding-top: 10px;}
+.opt a {margin-right: 20px; }
