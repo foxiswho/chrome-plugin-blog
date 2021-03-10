@@ -2,7 +2,7 @@
   "name": "foxwho 博客网摘",
   "manifest_version": 2,
   "version": "1.0.1",
-  "description": "博客网摘 博客收藏 配和个人博客使用 【作者：foxwho.com 邮箱：foxiswho@gmail.com】",
+  "description": "博客网摘 博客收藏 配和个人博客使用 【作者：foxwho 博客: foxwho.com 邮箱：foxiswho@gmail.com】",
   "icons": {
     "32": "images/icon.png",
     "16": "images/icon.png"
